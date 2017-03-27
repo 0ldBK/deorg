@@ -1,0 +1,87 @@
+body {
+  /*background: #e2e0e0;*/
+}
+
+.timer {
+	font-size: 10px;
+	font-family: Tahoma;
+	color: #804040;
+	font-weight: bold;
+	display: inline-block;
+	padding-left: 10px;
+	float: right;
+	cursor: pointer;
+}
+.hp {
+	font-size: 10px;
+	font-family: Tahoma;
+	color: #804040;
+	font-weight: bold;
+	display: inline-block;
+	margin-left: 5px;
+}
+.hp.r {color: #FF0000;}
+.hp.g {color: #008000;}
+.hp.y {color: #FF8040;}
+.hp.b {color: #000000;}
+
+.info {
+	font-size: 10px;
+	font-family: Tahoma;
+	padding: 1px;
+	display: inline-block;
+	padding: 3px;
+}
+
+.info span {
+	font-size: 10px;
+}
+
+.info .attack {
+	text-decoration: underline;
+}
+.info .inviz {
+	font-style: italic;
+}
+
+.info .changed {
+	color: #7D7D7D;
+}
+
+.info img {
+	vertical-align: text-bottom;
+	cursor: pointer;
+}
+
+#mes p {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+.tank-ac, .tank-ad {
+	color: #535353;
+}
+.dodge-ac, .dodge-ad {
+	color: #008000;
+}
+.crit-ac, .crit-ad {
+	color: #FF8000;
+}
+
+sup {	font-size: 8px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.changed {	background: url(http://plug.toplink.by/i/x.png) no-repeat left 50%;
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+.inviz {
+	font-style: italic;
+}
+
+.voplot {	font-style: normal;
+	color: #400080;
+}

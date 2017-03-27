@@ -1,0 +1,56 @@
+#repair, #repairdiv {
+	background: #D3C9C9;
+	width: 285px;
+	top: 200px;
+	right: 0px;
+	position: absolute;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px;
+	font-family: Tahoma, Verdana, Arial;
+	border-radius: 5px;
+	border: 1px solid #D3E9E9;
+}
+#repair button, #repairdiv button {
+	padding: 2px;
+	width: 250px;
+	font-size: 10px;
+	margin-bottom: 5px;
+}
+
+#page-wrapper {
+	margin-top: 95px;
+}
+#sage {
+   	top: 0px;
+   	position: absolute;
+   	left: 15px;
+	right: 10px;
+   	background: #C7C7C7;
+   	height: 100px;
+   	border: 1px solid rgb(163, 163, 163);
+}
+#page-wrapper .title .h3 {
+	position: relative;
+}
+#sage table {
+	width: 100%;
+	height: 100px;
+	font-size: 12px;
+}
+#pstatus {
+	width: 100%;
+	height: 100%;
+	font-size: 13px;
+	overflow-y: scroll;
+	font-family: Calibri, Tahoma;
+	color: navy;
+	font-weight: bold;
+}
+
+#buttons {	position: relative;
+	float:right;}
+#page-wrapper .title .h3 {
+	position: relative;
+	float:left;
+}

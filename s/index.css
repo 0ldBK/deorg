@@ -1,0 +1,84 @@
+body {
+		background: #eee;
+		padding: 0px;
+		margin: 0px;
+		font-family: Tahoma;
+		font-size: 12px;
+	}
+	a {
+		color: #AB1313;
+		font-weight: bold;
+		cursor: pointer;
+		text-decoration: none;
+		font-size: 12px;
+		font-family: Tahoma;
+	}
+	a:hover {
+		color: #008000;
+	}
+	#loginform {
+		width: 250px;
+		height: 90px;
+		border-radius: 5px;
+		background: #C0C0C0;
+		border: 1px solid #808080;
+		position: absolute;
+		left: 50%;
+		top: 200px;
+		padding: 10px;
+		margin-left: -125px;
+		text-align: center;
+	}
+	#loginform > div {
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+	input[type='date'], input[type='text'], select {
+		width: 175px;
+		border-radius: 3px;
+		border: 1px outset #808080;
+		color: #400000;
+		padding: 1px 5px 1px 5px;
+		margin-bottom: 5px;
+	}
+	input[type='number'] {
+		border-radius: 3px;
+		border: 1px outset #808080;
+		color: #400000;
+		padding: 1px 5px 1px 5px;
+		margin-bottom: 5px;
+		width: 75px;
+		text-align: center;
+	}
+	input[type='password'] {
+		width: 181px;
+		border-radius: 3px;
+		border: 1px outset #808080;
+		color: #400000;
+		padding: 1px 5px 1px 5px;;
+	}
+	input[type='submit'], input[type='button'] {
+		border-radius: 3px;
+		border: 1px outset #808080;
+		cursor: pointer;
+		margin-left: 2px;
+		color: #400000;
+		padding: 1px 5px 1px 5px;;
+	}
+	input[type='submit']:hover {
+    	border: 1px inset #808080;
+	}
+	input[type='button']:hover {
+		color: green;
+	}
+	#loginform input[type='submit'] {
+		width: 57px;
+	}
+	form {
+		padding: 0px;
+		margin: 0px;
+		margin-top: 5px;
+	}
+	label {
+		cursor: pointer;
+	}

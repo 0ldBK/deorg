@@ -1,0 +1,63 @@
+#quests {
+	width: 100%;
+}
+#qlist {
+	width: 100%;
+}
+#quests select {
+	height: 18px;
+}
+#quests select optgroup {
+	color: maroon;
+}
+#quests select option {
+	color: navy;
+}
+
+#quests .text {
+	overflow: auto;
+	padding: 0px;
+	margin: 0px;
+	font-size: 10px;
+	font-family: Verdana,Tahoma;
+	border: 0px solid #808080;
+	padding: 0px;
+}
+.howto {
+	font-family: Tahoma;
+	border: 1px solid #808080;
+	margin: 1px;
+	padding: 5px;
+	font-size: 10px;
+}
+
+.now {
+	font-size: 9px;
+	font-family: Verdana,Tahoma;
+	text-align: left;
+	border: 1px solid #808080;
+	border-radius: 5px;
+	background: #E4E4E4;
+	margin-bottom: 5px;
+	padding: 5px;
+	width: 93%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tocity {
+	vertical-align: -webkit-baseline-middle;
+	width: 65%;
+	font-size: 9px;
+}
+#checkit {
+	vertical-align: -webkit-baseline-middle;
+	width: 35%;
+	font-size: 10px;
+	padding-top: 2px;
+}
+#quests i {
+	color: red;
+	font-weight: bold;
+	font-size: 10px;
+}

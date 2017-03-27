@@ -1,0 +1,26 @@
+<?
+$query = parse_url($_SERVER['HTTP_REFERER']);
+header("Access-Control-Allow-Credentials: true");
+header("Access-Control-Allow-Origin: http://".$query['host']);
+header("Connection: keep-alive");
+session_start();
+
+$messages[] = "
+&raquo; Скачать плагин под другой браузер <a href='http://mail.podhod.by/plugin/' target=_blank><b>можно здесь</b></a>(кликабельно).
+<br>
+&raquo; <b style='color: #000040'>Если вам необходимы: МФ, встройки(500 зарядов!!!), заточка, и прочие магические услуги - обращайтесь к магу Sage: <img onclick='top.AddToPrivate(\"Sage\", top.CtrlPress, event); return false;' src='http://i.oldbk.com/i/lock.gif' style='cursor:pointer;' title='Приват' width=20 height=15></b>
+<br>
+&raquo; Защита от травм - За и против! Прошу Вас принять участие в <a href='http://oldbk.com/forum.php?konftop=13&topic=230284490/' target=_blank><b>голосовании</b></a>.
+<br>
+&raquo; СРОЧНО куплю 10 пропусков к Лорду Разрушителю! Выручайте, нужно для квеста!!!
+<br>
+&raquo; <b style='color: #990B0B'>ВНИМАНИЕ!!! Сменилось количество проверяемых встроек(стало 11) в автористе/лорде (теперь на плаще отображается встройка брони). Поменяйте с 10 на 11, кто использует.</b>
+<br><br>
+";
+
+
+
+echo json_encode($messages);
+
+
+?>

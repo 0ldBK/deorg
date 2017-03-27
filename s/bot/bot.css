@@ -1,0 +1,30 @@
+#bot {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    /*height: 200px;*/
+    background: #969896;
+}
+
+#bot textarea {
+    display: block;
+    margin: 0 auto;
+    width: 98%;
+    height: 50%;
+    resize: vertical;
+}
+
+#bot input[type=submit] {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#result {
+    width: 100%;
+    margin: 5px;
+    padding: 3px;
+    /*height: 20px;*/
+    color: white;
+}

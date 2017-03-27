@@ -1,0 +1,33 @@
+#sales {
+	background: #D3C9C9;
+	min-height: 10px;
+	top: 25px;
+	right: 0px;
+	position: absolute;
+	text-align: center;
+	font-size: 12px;
+	font-family: Tahoma, Verdana, Arial;
+	border-radius: 5px;
+	border: 1px solid #D3E9E9;
+	padding: 5px;
+}
+#sales button {
+	padding: 2px;
+}
+#sales #stext div {
+	border-radius: 5px;
+	border: 1px solid #808080;
+	margin: 5px auto;
+	font-weight: bold;
+	padding: 5px 10px 5px 10px;
+	text-align: left;
+	cursor: pointer;
+	display: block;
+	width: 90%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#sales #stext {
+	margin-top: 0px;
+	text-align: center;
+}
